@@ -226,9 +226,9 @@ h5.cart-title {
   font-size: 1.125rem;
   font-weight: 500;
   text-transform: capitalize;
-  color: var(--dark-color); /*conócenos*/
+  color: var(--light-color); /*conócenos*/
   height: fit-content;
-  border-bottom: 2px solid var(--dark-color); /*linea conócenos*/
+  border-bottom: 2px solid var(--light-color); /*linea conócenos*/
   padding: 0;
   padding-bottom: 5px;
   border-radius: 0;
@@ -243,14 +243,14 @@ h5.cart-title {
 }
 
 .btn-dark{
-  color: var(--white-color);
+  color: var(--dark-color); /*white*/
   padding: 10px 22px;
   border: 0;
   transition: 0.3s ease;
 }
 .btn-dark:hover{
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: var(--dark-color); /*white*/
   border: 0;
 }
 
